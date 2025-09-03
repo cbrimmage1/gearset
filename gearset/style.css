@@ -22,8 +22,8 @@ p {
 }
 
 img {
-    margin-left: 3%;
-    margin-right: 3%;
+    display: inline-block;
+    margin: 0 auto;
 }
 
 .square1 {
@@ -79,11 +79,18 @@ img {
     right: 65%;
   }
 
-  p.credit {
+  p.footnote {
     font-size: 1.2em;
     text-align: center;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
+  }
+
+  p.credit {
+    font-size: 1.2em;
+    text-align: center;
+    /* margin-top: 1%; */
+    margin-bottom: 4%;
   }
 
 .button {
